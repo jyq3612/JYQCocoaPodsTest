@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-@version = "1.0.2"
+@version = "1.0.3"
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "JYQCocoaPodsTest/*.{h}"
+  s.source_files  = "JYQCocoaPodsTest/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "JYQCocoaPodsTest/*.h"
